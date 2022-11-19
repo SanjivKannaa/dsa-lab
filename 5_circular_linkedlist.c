@@ -7,9 +7,9 @@ struct node{
 struct node *head=NULL;
 
 void insert_begin(int element){
-    printf("bruh1");
+    // printf("bruh1");
     struct node *newnode = (struct node*) malloc(sizeof(struct node));
-    printf("%f", newnode);
+    // printf("%f", newnode);
     newnode->data = element;
     newnode->next = head;
     head=newnode;
